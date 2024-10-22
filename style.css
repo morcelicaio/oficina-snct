@@ -1,0 +1,76 @@
+ /* Estilo para centralizar o cabeçalho */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0 auto;
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        nav {
+            margin-right: 50px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+
+         /* Estilo da seção e da imagem */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 80px 20px 20px 20px;			
+        }
+		
+		section{
+			border-radius: 10px;
+		}
+		
+        section#sobre {
+			background-color: #E0FFFF;
+            width: 65%;
+            padding: 20px;			
+        }
+
+        section#imagem {
+			background-color: #DCDCDC;
+            width: 25%;
+            padding: 20px;
+            text-align: center;
+        }				
+
+        /* Estilo da imagem */
+        img {
+            /*max-width: 300px; */
+			width: 65%;
+            height: auto;
+        }
+		
+		p {
+			font-size: 14px;
+			font-family: sans-serif;			
+			font-weight: bold;
+		}
+
+        /* Estilo do rodapé */
+        footer {
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+        }
